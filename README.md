@@ -3,6 +3,7 @@
 A modern React + TypeScript application for managing hierarchical tables with direct and percentage-based value allocation. Built with Vite and styled using Tailwind CSS.
 
 ## Screenshots
+<img width="948" height="617" alt="image" src="https://github.com/user-attachments/assets/4519f203-0b99-4225-b71b-50bc737ed204" />
 
 ## Features
 
