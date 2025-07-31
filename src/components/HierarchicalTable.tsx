@@ -74,11 +74,11 @@ const HierarchicalTable: React.FC = () => {
       return items.map((item) => {
         if (item.id === id) {
           if (
-            updateType === "direct" &&
+            (updateType === "direct" || updateType === "percentage") &&
             item.children &&
             item.children.length > 0
           ) {
-            // if we are updating a parent directly, distribute to children proportionally
+            // if we are updating a parent directly or by percent, distribute to children proportionally
             const currentSubtotal = calculateSubtotal(item.children);
             const updatedChildren = item.children.map((child) => ({
               ...child,
